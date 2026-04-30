@@ -1,0 +1,62 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #868a9a 0%, #178023 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  color: rgb(7, 8, 106);
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.date {
+  color: rgb(17, 160, 15);
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: 300;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.time {
+  color: rgb(101, 73, 60);
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 2px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .date {
+    font-size: 1.4rem;
+  }
+  
+  .time {
+    font-size: 2.2rem;
+  }
+}
